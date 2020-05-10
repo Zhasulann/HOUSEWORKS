@@ -1,0 +1,44 @@
+header{
+	border-bottom: 1px solid black;
+}
+aside{
+	border-right: 1px solid black;
+	height: 100%;
+}
+
+footer{
+	border-top: 1px solid black;
+}
+body {
+	width: 100vw;
+	overflow: hidden;
+}
+btn--call{
+	position: relative;
+	padding-left: 40px;
+	background: grey;
+
+}
+btn-call::after{
+	content: 'ggg';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	right: -15%;
+	left: 15px;
+	z-index: 0;
+	background: #ccc;
+}
+.no-gutters{
+	padding: 0;!important;
+	margin: 0;!important;
+}
+.nav{
+
+}
+.nav_list{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
